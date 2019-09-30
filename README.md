@@ -1,24 +1,4 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Esse projeto faz parte do tutorial Web Scraping com Ruby da Escola de Programação OneBitCode :)
+Para saber mais sobre ele clique aqui: <a target="_blank" href="https://onebitcode.com/web-scraping-ruby">https://onebitcode.com/web-scraping-ruby</a>
