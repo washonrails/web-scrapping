@@ -1,0 +1,147 @@
+# Logfile created on 2023-01-22 01:55:21 -0300 by logger.rb/v1.5.3
+I, [2023-01-22T01:55:21.354964 #9507]  INFO -- : Net::HTTP::Get: /
+D, [2023-01-22T01:55:21.355043 #9507] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2023-01-22T01:55:21.355091 #9507] DEBUG -- : request-header: accept => */*
+D, [2023-01-22T01:55:21.355118 #9507] DEBUG -- : request-header: user-agent => Mechanize/2.8.5 Ruby/3.1.3p185 (http://github.com/sparklemotion/mechanize/)
+D, [2023-01-22T01:55:21.355143 #9507] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2023-01-22T01:55:21.355167 #9507] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2023-01-22T01:55:21.355190 #9507] DEBUG -- : request-header: host => localhost:3000
+I, [2023-01-22T01:55:21.360781 #9507]  INFO -- : status: Net::HTTPFound 1.1 302 Found
+D, [2023-01-22T01:55:21.360877 #9507] DEBUG -- : response-header: location => http://localhost:3000/users/sign_in
+D, [2023-01-22T01:55:21.360908 #9507] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2023-01-22T01:55:21.360934 #9507] DEBUG -- : response-header: cache-control => no-cache
+D, [2023-01-22T01:55:21.360959 #9507] DEBUG -- : response-header: set-cookie => _webscrapper_target_session=8AYDupk32FQUWjmepl%2BSkQsuYNeadJkXk2GihTuV1Vvygcq2n%2FLCieFrNYlohrwKgXQT3iTEpoct%2FgJs%2FiDFs2S8doecmvypkSLwoKtMQVoVv7d9uaoj5wffBu4YtzBivO%2FkVwI0AE%2BeNI3vyZZW8hgNtdS5NjwS4lFfpo7pyjUOiB40vFHRgq94VmgtnGOlb18PvQn%2BkeF5lVMYoGk%2FKv%2FbiD7q--zwjO1XWEkvXQjy7Q--CxP1ESPTlAwCuE7AU6vrXw%3D%3D; path=/; HttpOnly
+D, [2023-01-22T01:55:21.360985 #9507] DEBUG -- : response-header: x-request-id => 59053988-2a26-4385-b56a-c1fbf6ea77f3
+D, [2023-01-22T01:55:21.361009 #9507] DEBUG -- : response-header: x-runtime => 0.003551
+D, [2023-01-22T01:55:21.361034 #9507] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2023-01-22T01:55:21.361178 #9507] DEBUG -- : Read 101 bytes (101 total)
+D, [2023-01-22T01:55:21.366325 #9507] DEBUG -- : saved cookie: _webscrapper_target_session=8AYDupk32FQUWjmepl%2BSkQsuYNeadJkXk2GihTuV1Vvygcq2n%2FLCieFrNYlohrwKgXQT3iTEpoct%2FgJs%2FiDFs2S8doecmvypkSLwoKtMQVoVv7d9uaoj5wffBu4YtzBivO%2FkVwI0AE%2BeNI3vyZZW8hgNtdS5NjwS4lFfpo7pyjUOiB40vFHRgq94VmgtnGOlb18PvQn%2BkeF5lVMYoGk%2FKv%2FbiD7q--zwjO1XWEkvXQjy7Q--CxP1ESPTlAwCuE7AU6vrXw%3D%3D
+I, [2023-01-22T01:55:21.366640 #9507]  INFO -- : follow redirect to: http://localhost:3000/users/sign_in
+I, [2023-01-22T01:55:21.367295 #9507]  INFO -- : Net::HTTP::Get: /users/sign_in
+D, [2023-01-22T01:55:21.367363 #9507] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2023-01-22T01:55:21.367391 #9507] DEBUG -- : request-header: accept => */*
+D, [2023-01-22T01:55:21.367416 #9507] DEBUG -- : request-header: user-agent => Mechanize/2.8.5 Ruby/3.1.3p185 (http://github.com/sparklemotion/mechanize/)
+D, [2023-01-22T01:55:21.367442 #9507] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2023-01-22T01:55:21.367465 #9507] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2023-01-22T01:55:21.367489 #9507] DEBUG -- : request-header: cookie => _webscrapper_target_session=8AYDupk32FQUWjmepl%2BSkQsuYNeadJkXk2GihTuV1Vvygcq2n%2FLCieFrNYlohrwKgXQT3iTEpoct%2FgJs%2FiDFs2S8doecmvypkSLwoKtMQVoVv7d9uaoj5wffBu4YtzBivO%2FkVwI0AE%2BeNI3vyZZW8hgNtdS5NjwS4lFfpo7pyjUOiB40vFHRgq94VmgtnGOlb18PvQn%2BkeF5lVMYoGk%2FKv%2FbiD7q--zwjO1XWEkvXQjy7Q--CxP1ESPTlAwCuE7AU6vrXw%3D%3D
+D, [2023-01-22T01:55:21.367514 #9507] DEBUG -- : request-header: host => localhost:3000
+I, [2023-01-22T01:55:21.396029 #9507]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2023-01-22T01:55:21.396334 #9507] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2023-01-22T01:55:21.396400 #9507] DEBUG -- : response-header: x-xss-protection => 1; mode=block
+D, [2023-01-22T01:55:21.396434 #9507] DEBUG -- : response-header: x-content-type-options => nosniff
+D, [2023-01-22T01:55:21.396469 #9507] DEBUG -- : response-header: x-download-options => noopen
+D, [2023-01-22T01:55:21.396498 #9507] DEBUG -- : response-header: x-permitted-cross-domain-policies => none
+D, [2023-01-22T01:55:21.396586 #9507] DEBUG -- : response-header: referrer-policy => strict-origin-when-cross-origin
+D, [2023-01-22T01:55:21.396622 #9507] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2023-01-22T01:55:21.396653 #9507] DEBUG -- : response-header: vary => Accept
+D, [2023-01-22T01:55:21.396685 #9507] DEBUG -- : response-header: etag => W/"9fceaefeae9516e94aa51d43ce7385a0"
+D, [2023-01-22T01:55:21.396720 #9507] DEBUG -- : response-header: cache-control => max-age=0, private, must-revalidate
+D, [2023-01-22T01:55:21.396762 #9507] DEBUG -- : response-header: set-cookie => _webscrapper_target_session=QsidCQB9G9C1cJahPnLvG98PcKda76paiVmu5R21FEzQcz5NfTt%2BuUAltxWQMC8yn7BaSrmZSwDewjuicfN4l0ohlOMa62Km%2BtNjOAtY3WRnRGbljmRt7lY5DO0kE7nSEBwbGFFSmetuHThAIMD9Fntuxpo1mObinbTzpW8Z%2BnbJFgrlKz7BvjJm0qKNwtuzPaS1q%2FgJoncdCk1She0s4Wn5NZ8d7KEwt6LL8bOXaqs4qEGEW%2BiW0kSt3wVLhmSrKDQcjWWi5M52T7H%2FVSqojqGIHpzUD5dxrEVfDLywfwZsOQ%3D%3D--Z%2BaPgyUyEr2hCXSq--s%2BUo6DahBy2voZosf9YQQw%3D%3D; path=/; HttpOnly
+D, [2023-01-22T01:55:21.396833 #9507] DEBUG -- : response-header: x-request-id => 8b60a9dd-6895-480c-b076-5fa658c0ae96
+D, [2023-01-22T01:55:21.396978 #9507] DEBUG -- : response-header: x-runtime => 0.026905
+D, [2023-01-22T01:55:21.397101 #9507] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2023-01-22T01:55:21.397673 #9507] DEBUG -- : Read 3147 bytes (3147 total)
+D, [2023-01-22T01:55:21.399079 #9507] DEBUG -- : saved cookie: _webscrapper_target_session=QsidCQB9G9C1cJahPnLvG98PcKda76paiVmu5R21FEzQcz5NfTt%2BuUAltxWQMC8yn7BaSrmZSwDewjuicfN4l0ohlOMa62Km%2BtNjOAtY3WRnRGbljmRt7lY5DO0kE7nSEBwbGFFSmetuHThAIMD9Fntuxpo1mObinbTzpW8Z%2BnbJFgrlKz7BvjJm0qKNwtuzPaS1q%2FgJoncdCk1She0s4Wn5NZ8d7KEwt6LL8bOXaqs4qEGEW%2BiW0kSt3wVLhmSrKDQcjWWi5M52T7H%2FVSqojqGIHpzUD5dxrEVfDLywfwZsOQ%3D%3D--Z%2BaPgyUyEr2hCXSq--s%2BUo6DahBy2voZosf9YQQw%3D%3D
+I, [2023-01-22T01:55:21.401702 #9507]  INFO -- : form encoding: UTF-8
+D, [2023-01-22T01:55:21.401921 #9507] DEBUG -- : query: "utf8=%E2%9C%93&authenticity_token=6GEkSGh%2BuDzkwoei3Bnl0xttetNCNM%2BxDVwIA1H2jT3APxjTYyIHtx8yNUyF%2FgKCeFIYySP18xp9rTgzVUznvg%3D%3D&user%5Bemail%5D=dummy%40email.com&user%5Bpassword%5D=123456&user%5Bremember_me%5D=0"
+I, [2023-01-22T01:55:21.402400 #9507]  INFO -- : Net::HTTP::Post: /users/sign_in
+D, [2023-01-22T01:55:21.402452 #9507] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2023-01-22T01:55:21.402479 #9507] DEBUG -- : request-header: accept => */*
+D, [2023-01-22T01:55:21.402504 #9507] DEBUG -- : request-header: user-agent => Mechanize/2.8.5 Ruby/3.1.3p185 (http://github.com/sparklemotion/mechanize/)
+D, [2023-01-22T01:55:21.402528 #9507] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2023-01-22T01:55:21.402551 #9507] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2023-01-22T01:55:21.402574 #9507] DEBUG -- : request-header: cookie => _webscrapper_target_session=QsidCQB9G9C1cJahPnLvG98PcKda76paiVmu5R21FEzQcz5NfTt%2BuUAltxWQMC8yn7BaSrmZSwDewjuicfN4l0ohlOMa62Km%2BtNjOAtY3WRnRGbljmRt7lY5DO0kE7nSEBwbGFFSmetuHThAIMD9Fntuxpo1mObinbTzpW8Z%2BnbJFgrlKz7BvjJm0qKNwtuzPaS1q%2FgJoncdCk1She0s4Wn5NZ8d7KEwt6LL8bOXaqs4qEGEW%2BiW0kSt3wVLhmSrKDQcjWWi5M52T7H%2FVSqojqGIHpzUD5dxrEVfDLywfwZsOQ%3D%3D--Z%2BaPgyUyEr2hCXSq--s%2BUo6DahBy2voZosf9YQQw%3D%3D
+D, [2023-01-22T01:55:21.402598 #9507] DEBUG -- : request-header: host => localhost:3000
+D, [2023-01-22T01:55:21.402622 #9507] DEBUG -- : request-header: referer => http://localhost:3000/users/sign_in
+D, [2023-01-22T01:55:21.402644 #9507] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2023-01-22T01:55:21.402668 #9507] DEBUG -- : request-header: content-length => 216
+I, [2023-01-22T01:55:21.584863 #9507]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2023-01-22T01:55:21.585141 #9507] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2023-01-22T01:55:21.585223 #9507] DEBUG -- : response-header: x-xss-protection => 1; mode=block
+D, [2023-01-22T01:55:21.585249 #9507] DEBUG -- : response-header: x-content-type-options => nosniff
+D, [2023-01-22T01:55:21.585287 #9507] DEBUG -- : response-header: x-download-options => noopen
+D, [2023-01-22T01:55:21.585312 #9507] DEBUG -- : response-header: x-permitted-cross-domain-policies => none
+D, [2023-01-22T01:55:21.585337 #9507] DEBUG -- : response-header: referrer-policy => strict-origin-when-cross-origin
+D, [2023-01-22T01:55:21.585360 #9507] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2023-01-22T01:55:21.585384 #9507] DEBUG -- : response-header: vary => Accept
+D, [2023-01-22T01:55:21.585407 #9507] DEBUG -- : response-header: etag => W/"922cdecb93597452267b14941038384e"
+D, [2023-01-22T01:55:21.585431 #9507] DEBUG -- : response-header: cache-control => max-age=0, private, must-revalidate
+D, [2023-01-22T01:55:21.585454 #9507] DEBUG -- : response-header: set-cookie => _webscrapper_target_session=X8kDai58yEporjbi%2BzINpznVse%2BVdlxgs8wOOir60D1nAGTFQ%2FADRAjKlaFbBkVjmpzpmb8bMBSj1gBLxlcBsvIIZVldDR1avsS6Q%2FEkXeOZJn24wG8X2lzsbf4ZJmKauFtJjSO4u2Oh5yNKBIf%2FunLPGQLZGbNdrgqLb29P9GfKKCw%3D--XPf6WHZIDRNNU1Vb--ubDcFyLRyKAb8bQJDk8jig%3D%3D; path=/; HttpOnly
+D, [2023-01-22T01:55:21.585478 #9507] DEBUG -- : response-header: x-request-id => 62fcec95-367f-4e2d-9381-f82fe0b0af14
+D, [2023-01-22T01:55:21.585502 #9507] DEBUG -- : response-header: x-runtime => 0.180857
+D, [2023-01-22T01:55:21.585525 #9507] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2023-01-22T01:55:21.585605 #9507] DEBUG -- : Read 3162 bytes (3162 total)
+D, [2023-01-22T01:55:21.586119 #9507] DEBUG -- : saved cookie: _webscrapper_target_session=X8kDai58yEporjbi%2BzINpznVse%2BVdlxgs8wOOir60D1nAGTFQ%2FADRAjKlaFbBkVjmpzpmb8bMBSj1gBLxlcBsvIIZVldDR1avsS6Q%2FEkXeOZJn24wG8X2lzsbf4ZJmKauFtJjSO4u2Oh5yNKBIf%2FunLPGQLZGbNdrgqLb29P9GfKKCw%3D--XPf6WHZIDRNNU1Vb--ubDcFyLRyKAb8bQJDk8jig%3D%3D
+I, [2023-01-22T01:55:44.198260 #9776]  INFO -- : Net::HTTP::Get: /
+D, [2023-01-22T01:55:44.198363 #9776] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2023-01-22T01:55:44.198394 #9776] DEBUG -- : request-header: accept => */*
+D, [2023-01-22T01:55:44.198420 #9776] DEBUG -- : request-header: user-agent => Mechanize/2.8.5 Ruby/3.1.3p185 (http://github.com/sparklemotion/mechanize/)
+D, [2023-01-22T01:55:44.198445 #9776] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2023-01-22T01:55:44.198469 #9776] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2023-01-22T01:55:44.198493 #9776] DEBUG -- : request-header: host => localhost:3000
+I, [2023-01-22T01:55:44.207066 #9776]  INFO -- : status: Net::HTTPFound 1.1 302 Found
+D, [2023-01-22T01:55:44.207157 #9776] DEBUG -- : response-header: location => http://localhost:3000/users/sign_in
+D, [2023-01-22T01:55:44.207188 #9776] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2023-01-22T01:55:44.207215 #9776] DEBUG -- : response-header: cache-control => no-cache
+D, [2023-01-22T01:55:44.207240 #9776] DEBUG -- : response-header: set-cookie => _webscrapper_target_session=VDybvxC0%2BwFnGOsbXXaE%2BCg62og8tGvqxoAs0fcL4u3GgDiIcIE2ibrybsPfz7ouxvGJwYqSTbBy5G30Jmy7dpkj5wnFJS51gvLW0%2FJ%2BKljeo3q%2FFnPwh5OjIwcn1WyYRg0XKaV0%2FtxKy2CuXYR5L5cK2le%2BR2fs3xgFMZd1hXQB5R4PJEW92JzxDRaykbYbdfwKAjXcMFzmkzH4aQHy1vtwZbZh--B1bmm6TD%2B74nMzBd--JHb9f66oVKWdmOchSFXZ2w%3D%3D; path=/; HttpOnly
+D, [2023-01-22T01:55:44.207267 #9776] DEBUG -- : response-header: x-request-id => fd10b18f-4163-4996-b361-0c5574bfaa87
+D, [2023-01-22T01:55:44.207293 #9776] DEBUG -- : response-header: x-runtime => 0.006646
+D, [2023-01-22T01:55:44.207317 #9776] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2023-01-22T01:55:44.207435 #9776] DEBUG -- : Read 101 bytes (101 total)
+D, [2023-01-22T01:55:44.209970 #9776] DEBUG -- : saved cookie: _webscrapper_target_session=VDybvxC0%2BwFnGOsbXXaE%2BCg62og8tGvqxoAs0fcL4u3GgDiIcIE2ibrybsPfz7ouxvGJwYqSTbBy5G30Jmy7dpkj5wnFJS51gvLW0%2FJ%2BKljeo3q%2FFnPwh5OjIwcn1WyYRg0XKaV0%2FtxKy2CuXYR5L5cK2le%2BR2fs3xgFMZd1hXQB5R4PJEW92JzxDRaykbYbdfwKAjXcMFzmkzH4aQHy1vtwZbZh--B1bmm6TD%2B74nMzBd--JHb9f66oVKWdmOchSFXZ2w%3D%3D
+I, [2023-01-22T01:55:44.210156 #9776]  INFO -- : follow redirect to: http://localhost:3000/users/sign_in
+I, [2023-01-22T01:55:44.210618 #9776]  INFO -- : Net::HTTP::Get: /users/sign_in
+D, [2023-01-22T01:55:44.210669 #9776] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2023-01-22T01:55:44.210712 #9776] DEBUG -- : request-header: accept => */*
+D, [2023-01-22T01:55:44.210757 #9776] DEBUG -- : request-header: user-agent => Mechanize/2.8.5 Ruby/3.1.3p185 (http://github.com/sparklemotion/mechanize/)
+D, [2023-01-22T01:55:44.210804 #9776] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2023-01-22T01:55:44.210847 #9776] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2023-01-22T01:55:44.210894 #9776] DEBUG -- : request-header: cookie => _webscrapper_target_session=VDybvxC0%2BwFnGOsbXXaE%2BCg62og8tGvqxoAs0fcL4u3GgDiIcIE2ibrybsPfz7ouxvGJwYqSTbBy5G30Jmy7dpkj5wnFJS51gvLW0%2FJ%2BKljeo3q%2FFnPwh5OjIwcn1WyYRg0XKaV0%2FtxKy2CuXYR5L5cK2le%2BR2fs3xgFMZd1hXQB5R4PJEW92JzxDRaykbYbdfwKAjXcMFzmkzH4aQHy1vtwZbZh--B1bmm6TD%2B74nMzBd--JHb9f66oVKWdmOchSFXZ2w%3D%3D
+D, [2023-01-22T01:55:44.210940 #9776] DEBUG -- : request-header: host => localhost:3000
+I, [2023-01-22T01:55:44.239059 #9776]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2023-01-22T01:55:44.239158 #9776] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2023-01-22T01:55:44.239202 #9776] DEBUG -- : response-header: x-xss-protection => 1; mode=block
+D, [2023-01-22T01:55:44.239246 #9776] DEBUG -- : response-header: x-content-type-options => nosniff
+D, [2023-01-22T01:55:44.239289 #9776] DEBUG -- : response-header: x-download-options => noopen
+D, [2023-01-22T01:55:44.239330 #9776] DEBUG -- : response-header: x-permitted-cross-domain-policies => none
+D, [2023-01-22T01:55:44.239374 #9776] DEBUG -- : response-header: referrer-policy => strict-origin-when-cross-origin
+D, [2023-01-22T01:55:44.239420 #9776] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2023-01-22T01:55:44.239466 #9776] DEBUG -- : response-header: vary => Accept
+D, [2023-01-22T01:55:44.239512 #9776] DEBUG -- : response-header: etag => W/"561a7f6ff714b32e7e477b6e1d73744e"
+D, [2023-01-22T01:55:44.239557 #9776] DEBUG -- : response-header: cache-control => max-age=0, private, must-revalidate
+D, [2023-01-22T01:55:44.239602 #9776] DEBUG -- : response-header: set-cookie => _webscrapper_target_session=WlBZMGKxt1Kp3pWRfsu03abltJ7Bjl8%2BsMEiN6h8sKGhZVPZjvi8Hza7cX5J0mjiD6x8kqCI9CfWBPgyT7DJD6dv3HgLHs21Zc%2BUVFzA3Ah8eNx2RB3%2BHCu%2FOuTmrcoOkxLUhCZ%2BcfR8WsaJJQMmp91YaNFRznX%2BVStiJeAEP4LHXtVrkqOUYbKHen0sirVF6yuFENuVlOW%2BL23U4vckgW2v2PjX1ubIjx9%2F8%2FQFw4XXXDQgCO6DcKIl4WvHDjtye1%2FbMhhqYPUrI3k2l9SWsFRYzjxThgt4aedUjfFsWOvsjg%3D%3D--%2B9EgZbufx%2FSYV9zC--VkteYMoLZ1vE4poDhEGgHA%3D%3D; path=/; HttpOnly
+D, [2023-01-22T01:55:44.239651 #9776] DEBUG -- : response-header: x-request-id => 5f3181b6-552d-46bd-ba90-0771a3cdbdcc
+D, [2023-01-22T01:55:44.239697 #9776] DEBUG -- : response-header: x-runtime => 0.026565
+D, [2023-01-22T01:55:44.239741 #9776] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2023-01-22T01:55:44.239885 #9776] DEBUG -- : Read 3147 bytes (3147 total)
+D, [2023-01-22T01:55:44.240525 #9776] DEBUG -- : saved cookie: _webscrapper_target_session=WlBZMGKxt1Kp3pWRfsu03abltJ7Bjl8%2BsMEiN6h8sKGhZVPZjvi8Hza7cX5J0mjiD6x8kqCI9CfWBPgyT7DJD6dv3HgLHs21Zc%2BUVFzA3Ah8eNx2RB3%2BHCu%2FOuTmrcoOkxLUhCZ%2BcfR8WsaJJQMmp91YaNFRznX%2BVStiJeAEP4LHXtVrkqOUYbKHen0sirVF6yuFENuVlOW%2BL23U4vckgW2v2PjX1ubIjx9%2F8%2FQFw4XXXDQgCO6DcKIl4WvHDjtye1%2FbMhhqYPUrI3k2l9SWsFRYzjxThgt4aedUjfFsWOvsjg%3D%3D--%2B9EgZbufx%2FSYV9zC--VkteYMoLZ1vE4poDhEGgHA%3D%3D
+I, [2023-01-22T01:55:44.242267 #9776]  INFO -- : form encoding: UTF-8
+D, [2023-01-22T01:55:44.242551 #9776] DEBUG -- : query: "utf8=%E2%9C%93&authenticity_token=iJtI5XGUBv6w%2FGDrr1eMmH5wgF0KSJip06tDAESF%2BkuRXo%2FEHvNYCWT1zixpWMFNGKP4LIIYFhwHX1uGSP6nlA%3D%3D&user%5Bemail%5D=dummy%40email.com&user%5Bpassword%5D=123456&user%5Bremember_me%5D=0"
+I, [2023-01-22T01:55:44.243100 #9776]  INFO -- : Net::HTTP::Post: /users/sign_in
+D, [2023-01-22T01:55:44.243178 #9776] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2023-01-22T01:55:44.243218 #9776] DEBUG -- : request-header: accept => */*
+D, [2023-01-22T01:55:44.243258 #9776] DEBUG -- : request-header: user-agent => Mechanize/2.8.5 Ruby/3.1.3p185 (http://github.com/sparklemotion/mechanize/)
+D, [2023-01-22T01:55:44.243302 #9776] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2023-01-22T01:55:44.243345 #9776] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2023-01-22T01:55:44.243388 #9776] DEBUG -- : request-header: cookie => _webscrapper_target_session=WlBZMGKxt1Kp3pWRfsu03abltJ7Bjl8%2BsMEiN6h8sKGhZVPZjvi8Hza7cX5J0mjiD6x8kqCI9CfWBPgyT7DJD6dv3HgLHs21Zc%2BUVFzA3Ah8eNx2RB3%2BHCu%2FOuTmrcoOkxLUhCZ%2BcfR8WsaJJQMmp91YaNFRznX%2BVStiJeAEP4LHXtVrkqOUYbKHen0sirVF6yuFENuVlOW%2BL23U4vckgW2v2PjX1ubIjx9%2F8%2FQFw4XXXDQgCO6DcKIl4WvHDjtye1%2FbMhhqYPUrI3k2l9SWsFRYzjxThgt4aedUjfFsWOvsjg%3D%3D--%2B9EgZbufx%2FSYV9zC--VkteYMoLZ1vE4poDhEGgHA%3D%3D
+D, [2023-01-22T01:55:44.243430 #9776] DEBUG -- : request-header: host => localhost:3000
+D, [2023-01-22T01:55:44.243473 #9776] DEBUG -- : request-header: referer => http://localhost:3000/users/sign_in
+D, [2023-01-22T01:55:44.243513 #9776] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2023-01-22T01:55:44.243551 #9776] DEBUG -- : request-header: content-length => 216
+I, [2023-01-22T01:55:44.434796 #9776]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2023-01-22T01:55:44.434985 #9776] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2023-01-22T01:55:44.435131 #9776] DEBUG -- : response-header: x-xss-protection => 1; mode=block
+D, [2023-01-22T01:55:44.435229 #9776] DEBUG -- : response-header: x-content-type-options => nosniff
+D, [2023-01-22T01:55:44.435317 #9776] DEBUG -- : response-header: x-download-options => noopen
+D, [2023-01-22T01:55:44.435403 #9776] DEBUG -- : response-header: x-permitted-cross-domain-policies => none
+D, [2023-01-22T01:55:44.435490 #9776] DEBUG -- : response-header: referrer-policy => strict-origin-when-cross-origin
+D, [2023-01-22T01:55:44.435575 #9776] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2023-01-22T01:55:44.435659 #9776] DEBUG -- : response-header: vary => Accept
+D, [2023-01-22T01:55:44.435759 #9776] DEBUG -- : response-header: etag => W/"07349d12d5424e115cc6c653231d790d"
+D, [2023-01-22T01:55:44.435846 #9776] DEBUG -- : response-header: cache-control => max-age=0, private, must-revalidate
+D, [2023-01-22T01:55:44.435931 #9776] DEBUG -- : response-header: set-cookie => _webscrapper_target_session=yX%2FEkctVT4WaxTnoYYiVId2Sw5sDbWuYj6YTRkTuqYh5INbJw61Mly71dUo%2BDbjQXZQFJtiDn0lun34cwfpQgI%2F549AkXHfm5ZhxBqC0eyS3cOBhtGW6AOD6aZVpXI%2BwwdPipwskkbPQAtmMK25luTz1nF0XV4rv4aL2Drgrmzofwr4%3D--0Mc2ldI94rzYBOYP--Ptr6ubPM9H7hg0DNaR4lxg%3D%3D; path=/; HttpOnly
+D, [2023-01-22T01:55:44.436017 #9776] DEBUG -- : response-header: x-request-id => 1e8f87fb-3e0d-4095-98ba-e858c8eb309b
+D, [2023-01-22T01:55:44.436158 #9776] DEBUG -- : response-header: x-runtime => 0.189738
+D, [2023-01-22T01:55:44.436221 #9776] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2023-01-22T01:55:44.436304 #9776] DEBUG -- : Read 3162 bytes (3162 total)
+D, [2023-01-22T01:55:44.436874 #9776] DEBUG -- : saved cookie: _webscrapper_target_session=yX%2FEkctVT4WaxTnoYYiVId2Sw5sDbWuYj6YTRkTuqYh5INbJw61Mly71dUo%2BDbjQXZQFJtiDn0lun34cwfpQgI%2F549AkXHfm5ZhxBqC0eyS3cOBhtGW6AOD6aZVpXI%2BwwdPipwskkbPQAtmMK25luTz1nF0XV4rv4aL2Drgrmzofwr4%3D--0Mc2ldI94rzYBOYP--Ptr6ubPM9H7hg0DNaR4lxg%3D%3D
